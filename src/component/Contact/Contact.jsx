@@ -8,8 +8,8 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <div className="contact container mx-auto bg-[#000] mt-[300px] flex flex-col justify-end gap-[50px]">
+    <div className="w-[115%] bg-[#000] ">
+      <div className="contact container w-full ml-[100px] bg-[#000] mt-[300px] flex flex-col justify-end gap-[50px]">
         <div className="contact-text flex items-end gap-[160px] wi">
           <Head />
           <div className="linkss flex gap-6">
@@ -84,6 +84,8 @@ const Contact = () => {
                 placeholder="Phone Number"
               />
             </div>
+
+
             <div className="modal-modal">
               <p className="mt-[50px] ml-[20px]">Leave a request and we will <br /> contact you</p>
               <div className="modal-icon border w-[120px] cursor-pointer flex flex-col items-end justify-between  hover:rounded-l-full hover:rounded-b-full bg-[#000] relative left-[340px] bottom-[100px] ">
@@ -102,16 +104,16 @@ const Contact = () => {
                   </svg>
                 </div>
                 <div className="modal-icon-text">
-                  <h1 className="w-[50px] text-[30px] relative right-[30px] bottom-[10px]">
+                  <h3 className="w-[50px] relative right-[30px] bottom-[10px]">
                     Order Project
-                  </h1>
+                  </h3>
                 </div>
               </div>
             </div>
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 export default Contact;

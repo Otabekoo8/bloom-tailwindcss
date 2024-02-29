@@ -5,7 +5,7 @@ import logo3 from "../../images/3.svg";
 const Logo = () => {
   return (
     <>
-      <div className="logo container mx-auto flex flex-col gap-8">
+      <div className="logo w-[100%] h-[40vh] ml-[100px] flex flex-col gap-8">
         <div className="logo-text flex gap-3 justify-end">
           <button>
             <i className="bx bx-left-arrow-alt text-white text-[25px] p-[10px] border-2 hover:rounded-r-full hover:rounded-b-full hover:bg-slate-200 hover:text-black"></i>

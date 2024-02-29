@@ -3,7 +3,7 @@ import rasm from "../../images/plan.png";
 const Home = () => {
   return (
     <>
-      <div className="home container mx-auto flex flex-col justify-end items-end">
+      <div className="home container mx-auto flex flex-col justify-end items-end ml-[170px]">
         <div className="home-img">
           <img
             src={rasm}
@@ -11,7 +11,7 @@ const Home = () => {
             className="w-[250px] h-[350px] relative right-[120px] "
           />
         </div>
-        <div className="home-text  flex flex-col mt-[-220px] ">
+        <div className="home-text  flex flex-col mt-[-220px]">
           <div className="item w-[1100px] ml-[-170px] border-b flex justify-between pt-[10px] pb-[10px] hover:bg-[#979595] pl-[5px] pr-[5px]">
             <h1 className="text-white font-[900] font-serif text-[40px] ">
               Architectural Engineering

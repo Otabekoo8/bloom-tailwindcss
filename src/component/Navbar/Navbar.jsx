@@ -16,7 +16,7 @@ export const Navbar = () => {
             height="694"
             viewBox="0 0 906 694"
             fill="none"
-            className="relative  left-[630px]"
+            className="relative left-[550px]"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
@@ -26,7 +26,7 @@ export const Navbar = () => {
             />
           </svg>
 
-          <div className="navbar-text relative bottom-[600px] left-[750px] text-white text-[90px] font-bold w-[300px]">
+          <div className="navbar-text relative bottom-[600px] left-[700px] text-white text-[90px] font-bold w-[300px]">
             <h1>Bloom Architechture</h1>
           </div>
           <div
